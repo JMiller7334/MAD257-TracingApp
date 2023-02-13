@@ -16,6 +16,10 @@
 		3F96CB0029996B600056C063 /* Tracing_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F96CAFF29996B600056C063 /* Tracing_AppTests.swift */; };
 		3F96CB0A29996B600056C063 /* Tracing_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F96CB0929996B600056C063 /* Tracing_AppUITests.swift */; };
 		3F96CB0C29996B600056C063 /* Tracing_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F96CB0B29996B600056C063 /* Tracing_AppUITestsLaunchTests.swift */; };
+		3F96CB192999BEA10056C063 /* Topbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F96CB182999BEA10056C063 /* Topbar.swift */; };
+		3F96CB1B2999C6850056C063 /* Submit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F96CB1A2999C6850056C063 /* Submit.swift */; };
+		3F96CB1D2999D6910056C063 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F96CB1C2999D6910056C063 /* Settings.swift */; };
+		3F96CB1F2999DB600056C063 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F96CB1E2999DB600056C063 /* Status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		3F96CB0529996B600056C063 /* Tracing AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tracing AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F96CB0929996B600056C063 /* Tracing_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracing_AppUITests.swift; sourceTree = "<group>"; };
 		3F96CB0B29996B600056C063 /* Tracing_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracing_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F96CB182999BEA10056C063 /* Topbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topbar.swift; sourceTree = "<group>"; };
+		3F96CB1A2999C6850056C063 /* Submit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submit.swift; sourceTree = "<group>"; };
+		3F96CB1C2999D6910056C063 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		3F96CB1E2999DB600056C063 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +108,14 @@
 			children = (
 				3F96CAE929996B5E0056C063 /* Tracing_AppApp.swift */,
 				3F96CAEB29996B5E0056C063 /* ContentView.swift */,
+				3F96CB1E2999DB600056C063 /* Status.swift */,
+				3F96CB1C2999D6910056C063 /* Settings.swift */,
+				3F96CB1A2999C6850056C063 /* Submit.swift */,
 				3F96CAED29996B600056C063 /* Assets.xcassets */,
 				3F96CAF229996B600056C063 /* Persistence.swift */,
 				3F96CAF429996B600056C063 /* Tracing_App.xcdatamodeld */,
 				3F96CAEF29996B600056C063 /* Preview Content */,
+				3F96CB182999BEA10056C063 /* Topbar.swift */,
 			);
 			path = "Tracing App";
 			sourceTree = "<group>";
@@ -266,7 +278,11 @@
 				3F96CAF629996B600056C063 /* Tracing_App.xcdatamodeld in Sources */,
 				3F96CAF329996B600056C063 /* Persistence.swift in Sources */,
 				3F96CAEC29996B5E0056C063 /* ContentView.swift in Sources */,
+				3F96CB1F2999DB600056C063 /* Status.swift in Sources */,
+				3F96CB1B2999C6850056C063 /* Submit.swift in Sources */,
+				3F96CB1D2999D6910056C063 /* Settings.swift in Sources */,
 				3F96CAEA29996B5E0056C063 /* Tracing_AppApp.swift in Sources */,
+				3F96CB192999BEA10056C063 /* Topbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
